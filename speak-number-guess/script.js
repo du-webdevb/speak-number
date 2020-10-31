@@ -72,3 +72,8 @@ document.body.addEventListener('click', e => {
     window.location.reload();
   }
 });
+document.body.addEventListener('click', e => {
+  if (e.target.id == 'play-again') {
+    window.location.reload();
+  }
+});
